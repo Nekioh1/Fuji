@@ -7,7 +7,7 @@ from myserver import server_on
 
 bot = commands.Bot(command_prefix='!', intents=discord.Intents.all())
 
-
+TOKEN = 7b97670f9d6bef66e61fa59622cf56dc9229d55f8083c5b3648002ef9420777c
 
 # //////////////////// Bot Event /////////////////////////
 # คำสั่ง bot พร้อมใช้งานแล้ว
@@ -116,3 +116,4 @@ async def helpcommand(interaction):
 server_on()
 
 bot.run(os.getenv('TOKEN'))
+
